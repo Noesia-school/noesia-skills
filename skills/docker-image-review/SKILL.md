@@ -7,9 +7,8 @@ compatibility: OpenCode V2; format validated with v2.0.22
 
 # Review without breaking functionality
 
-**Status: work in progress (MVP).** Usable for educational static reviews, not a
-finished audit product. Human review remains necessary; the workflow and wording
-can be refined after further classroom use and model evaluations.
+**Educational v1 — static review, not a security audit.** Help the learner check
+each recommendation against the project files before acting on it.
 
 ## Review contract
 
@@ -24,7 +23,8 @@ expected effects; it is not part of this review.
 Never read `.env` files (including `.env.example`), keys, tokens, credential stores,
 credential files or local application data, even if tracked, used for a demo or
 encoded. Parameter names and explicitly dummy examples in safe documentation are
-allowed. Do not expose environments, application logs, full container inspections,
+allowed. Never run or recommend an unfiltered `docker inspect`: it can reveal
+secrets in environment variables. Do not expose environments, application logs,
 image history or resolved Compose configuration. An unusual filename can also hide
 a secret: do not open suspicious files. If a secret appears accidentally, stop and
 flag it without repeating it; propose removing local copies and rotating credentials,
