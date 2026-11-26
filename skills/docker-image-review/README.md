@@ -1,6 +1,6 @@
 # Relire un Dockerfile — partie 4.2
 
-Dans le projet à examiner, invoquez `@docker-image-review`. Le skill compare le
+Dans le projet à examiner, tapez `/docker-image-review`. Le skill compare le
 Dockerfile aux besoins de l’application et propose un plan, sans modifier les
 fichiers, construire l’image ni lancer de conteneur.
 

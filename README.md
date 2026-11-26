@@ -24,7 +24,7 @@ l'emplacement que vous aurez choisi.
 | [`/relance`](skills/relance/) | une personne qui ne répond pas (devis, facture, rendez-vous), une relance prête à envoyer, à votre ton | 🟢 aucune |
 | [`/compte-rendu`](skills/compte-rendu/) | un transcript ou des notes de réunion en vrac, un compte-rendu avec décisions et « qui fait quoi, pour quand » | 🟢 aucune |
 | [`/prep-rdv`](skills/prep-rdv/) | un nom avant un rendez-vous, une fiche d'une page : qui c'est, quoi demander, chaque fait avec sa source | 🟢 aucune |
-| [`docker-image-review`](skills/docker-image-review/) | un Dockerfile et son projet : des améliorations classées par priorité, avec les lignes à vérifier (module Déploiement, vidéo 4.2) | 🟢 aucune installation de Docker nécessaire |
+| [`/docker-image-review`](skills/docker-image-review/) | un Dockerfile et son projet : des améliorations classées par priorité, avec les lignes à vérifier (module Déploiement, vidéo 4.2) | 🟢 aucune installation de Docker nécessaire |
 
 🟢 marche tout de suite. 🟡 un ou deux outils à installer : le prompt d'installation s'en occupe
 avec vous, et le skill revérifie leur présence à chaque lancement. Il ne plante jamais sans
